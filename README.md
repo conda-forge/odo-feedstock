@@ -14,14 +14,15 @@ Summary: Data migration in Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/odo-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/odo-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/odo-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/odo-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/odo-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/odo-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/odo-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/odo-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/odo/badges/version.svg)](https://anaconda.org/conda-forge/odo)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/odo/badges/downloads.svg)](https://anaconda.org/conda-forge/odo)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-odo-green.svg)](https://anaconda.org/conda-forge/odo) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/odo.svg)](https://anaconda.org/conda-forge/odo) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/odo.svg)](https://anaconda.org/conda-forge/odo) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/odo.svg)](https://anaconda.org/conda-forge/odo) |
 
 Installing odo
 ==============
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
